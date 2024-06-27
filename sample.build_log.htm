@@ -1,0 +1,129 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Nunzio Messineo polito Flex license: MDK Professional 5.36 (Flex) (mdk_pro) Operation stops: 10 Mar 2024
+ 
+Tool Versions:
+Toolchain:       MDK Professional 5.36 (Flex)  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      UL2CM3.DLL V1.164.0.0
+Dialog DLL:      TARMP1.DLL V1.26.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Nunzio\Documents\Polito\Magistrale\Architetture dei sistemi di elaborazione\lab\ExtraPoint1\12_sample_GLCD_TP\sample.uvprojx
+Project File Date:  01/16/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_LPC17xx.s...
+compiling sample.c...
+compiling core_cm3.c...
+compiling system_LPC17xx.c...
+compiling lib_timer.c...
+compiling IRQ_timer.c...
+timer\../tamagotchi/tamagotchi.h(14): warning:  #1295-D: Deprecated declaration refill_happiness - give arg types
+  void refill_happiness();
+timer\../tamagotchi/tamagotchi.h(15): warning:  #1295-D: Deprecated declaration refill_satiety - give arg types
+  void refill_satiety();
+timer\../tamagotchi/tamagotchi.h(16): warning:  #1295-D: Deprecated declaration snack - give arg types
+  void snack();
+timer\../tamagotchi/tamagotchi.h(17): warning:  #1295-D: Deprecated declaration meal - give arg types
+  void meal();
+timer\../tamagotchi/tamagotchi.h(18): warning:  #1295-D: Deprecated declaration sadness - give arg types
+  void sadness();
+timer\../tamagotchi/tamagotchi.h(19): warning:  #1295-D: Deprecated declaration hungry - give arg types
+  void hungry();
+timer\../tamagotchi/tamagotchi.h(21): warning:  #1295-D: Deprecated declaration get_vivo - give arg types
+  int get_vivo();
+timer\../tamagotchi/tamagotchi.h(23): warning:  #1295-D: Deprecated declaration get_volume - give arg types
+  float get_volume();
+timer\../tamagotchi/tamagotchi.h(25): warning:  #1-D: last line of file ends without a newline
+  void Draw_volume(int i);
+timer\IRQ_timer.c(488): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		GUI_Text(85, 5, time, Black, White);
+timer\IRQ_timer.c: 10 warnings, 0 errors
+compiling AsciiLib.c...
+compiling TouchPanel.c...
+compiling HzLib.c...
+compiling IRQ_RIT.c...
+RIT\IRQ_RIT.c(14): warning:  #14-D: extra text after expected end of preprocessing directive
+  #include "../TouchPanel/TouchPanel.h"ù
+RIT\IRQ_RIT.c(34): warning:  #1295-D: Deprecated declaration get_vivo - give arg types
+  extern int get_vivo(), pos;
+RIT\IRQ_RIT.c(36): warning:  #1295-D: Deprecated declaration snack - give arg types
+  extern void snack();
+RIT\IRQ_RIT.c(37): warning:  #1295-D: Deprecated declaration meal - give arg types
+  extern void meal();
+RIT\IRQ_RIT.c: 4 warnings, 0 errors
+compiling lib_RIT.c...
+compiling funct_joystick.c...
+compiling lib_joystick.c...
+compiling lib_adc.c...
+compiling GLCD.c...
+compiling IRQ_adc.c...
+adc\IRQ_adc.c(22): warning:  #1295-D: Deprecated declaration get_volume - give arg types
+  extern float get_volume();
+adc\IRQ_adc.c: 1 warning, 0 errors
+compiling tamagotchi.c...
+tamagotchi\tamagotchi.h(14): warning:  #1295-D: Deprecated declaration refill_happiness - give arg types
+  void refill_happiness();
+tamagotchi\tamagotchi.h(15): warning:  #1295-D: Deprecated declaration refill_satiety - give arg types
+  void refill_satiety();
+tamagotchi\tamagotchi.h(16): warning:  #1295-D: Deprecated declaration snack - give arg types
+  void snack();
+tamagotchi\tamagotchi.h(17): warning:  #1295-D: Deprecated declaration meal - give arg types
+  void meal();
+tamagotchi\tamagotchi.h(18): warning:  #1295-D: Deprecated declaration sadness - give arg types
+  void sadness();
+tamagotchi\tamagotchi.h(19): warning:  #1295-D: Deprecated declaration hungry - give arg types
+  void hungry();
+tamagotchi\tamagotchi.h(21): warning:  #1295-D: Deprecated declaration get_vivo - give arg types
+  int get_vivo();
+tamagotchi\tamagotchi.h(23): warning:  #1295-D: Deprecated declaration get_volume - give arg types
+  float get_volume();
+tamagotchi\tamagotchi.h(25): warning:  #1-D: last line of file ends without a newline
+  void Draw_volume(int i);
+tamagotchi\tamagotchi.c(135): warning:  #1-D: last line of file ends without a newline
+  }
+tamagotchi\tamagotchi.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=30244 RO-data=22780 RW-data=184 ZI-data=696  
+".\sample.axf" - 0 Error(s), 25 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.7.1.pack
+                Keil.LPC1700_DFP.2.7.1
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\Nunzio\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\Nunzio\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
